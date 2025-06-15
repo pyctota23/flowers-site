@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Каталог цветов</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fafafa;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #6ab04c;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 20px;
+        }
+        .flower-card {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            margin: 10px;
+            width: 300px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        .flower-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .flower-card h3 {
+            margin: 10px;
+            color: #333;
+        }
+        .flower-card p {
+            margin: 10px;
+            color: #666;
+            font-size: 14px;
+        }
+        footer {
+            background-color: #6ab04c;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Каталог цветов</h1>
+    </header>
+
+    <div class="container">
+        <div class="flower-card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Rose_flower_in_Garden.jpg/640px-Rose_flower_in_Garden.jpg" alt="Роза">
+            <h3>Роза</h3>
+            <p>Розы — одни из самых популярных садовых цветов, символ любви и красоты.</p>
+            <p><b>Уход:</b> Теплое солнечное место, регулярный полив, обрезка отцветших бутонов.</p>
+        </div>
+
+        <div class="flower-card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Tulip_-_floriade_canberra.jpg/640px-Tulip_-_floriade_canberra.jpg" alt="Тюльпан">
+            <h3>Тюльпан</h3>
+            <p>Тюльпаны — весенние цветы с яркими бутонами, любимы во всем мире.</p>
+            <p><b>Уход:</b> Высадка осенью, умеренный полив, защита от сильных морозов.</p>
+        </div>
+
+        <div class="flower-card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Orchidaceae_purple_flower.jpg/640px-Orchidaceae_purple_flower.jpg" alt="Орхидея">
+            <h3>Орхидея</h3>
+            <p>Орхидеи — экзотические цветы с красивыми лепестками, украшают дома и офисы.</p>
+            <p><b>Уход:</b> Яркий рассеянный свет, высокая влажность, осторожный полив.</p>
+        </div>
+
+        <div class="flower-card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Lavandula_angustifolia.jpg/640px-Lavandula_angustifolia.jpg" alt="Лаванда">
+            <h3>Лаванда</h3>
+            <p>Лаванда — ароматное растение, используется в кулинарии и ароматерапии.</p>
+            <p><b>Уход:</b> Много солнца, сухая почва, минимальный полив.</p>
+        </div>
+
+        <div class="flower-card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Paeonia_Lactiflora_-_Karl_Rosenfield.jpg/640px-Paeonia_Lactiflora_-_Karl_Rosenfield.jpg" alt="Пион">
+            <h3>Пион</h3>
+            <p>Пионы — роскошные многолетники с большими ароматными цветами.</p>
+            <p><b>Уход:</b> Умеренный полив, защита от сильных ветров, обрезка осенью.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2025 Каталог цветов</p>
+    </footer>
+</body>
+</html>
